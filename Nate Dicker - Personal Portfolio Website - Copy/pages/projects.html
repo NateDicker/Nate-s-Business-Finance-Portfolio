@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Projects</title>
+        <meta charset="utf-8" />
+
+        <style>
+            body {
+                font-family: Arial;
+                margin: 0;
+            }
+
+            header {
+                position: relative;
+                text-align: center;
+                padding: 10px;
+                background-color: #0033aa;
+                color: white;
+            }
+            .logo {
+                position: absolute;
+                bottom: 10px;
+                left: 10px;
+                width: 50px;
+                height: auto;
+            }
+            nav {
+                background-color: #333333;
+            }
+
+            nav ul {
+                display: flex;
+                justify-content: space-around;
+                list-style: none;
+                padding: 0;
+                margin: 0;
+            }
+
+            nav a {
+                color: white;
+                text-decoration: none;
+                padding: 13px 20px;
+                display: block;
+            }
+            nav a:hover {
+                background-color: #777777;
+            }
+
+            .active {
+                background-color: #777777;
+            }
+            section {
+                padding: 15px;
+            }
+
+            .nav-buttons {
+                display: flex;
+                justify-content: flex-end;
+                gap: 10px;
+                margin-top: 20px;
+            }
+
+            .nav-buttons a {
+                text-decoration: none;
+                color: black;
+                border: 1px solid black;
+                padding: 5px 10px;
+            }
+
+            .nav-buttons a:hover {
+                background-color: #d3d3d3;
+            }
+
+            body {
+                background-color: #f4f4f4;
+            }
+
+            section {
+                background-color: white;
+            }
+            section {
+                padding: 10px;
+                max-width: 1000px;
+                margin: 0 auto;
+            }
+            .download-btn {
+                display: inline-block;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                padding: 8px 12px;
+                background-color: #333333;
+                color: white;
+                text-decoration: none;
+            }
+
+            .project-gallary {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 10px;
+            }
+
+            .project-img {
+                width: 48%;
+                border: 2px solid #333;
+                padding: 3px;
+                background-color: white;
+                padding: 3px;
+            }
+
+            .wide {
+                width: 100%;
+                max-width: 600px;
+                margin: 0 auto;
+            }
+
+            .divider {
+                border: none;
+                border-top: 2px solid #ccc;
+                margin: 40px 0;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <h1>Business Finance Portfolio</h1>
+            <img src="../images/viulogo.jpg" alt="Vancouver Island university (VIU) logo" class="logo" />
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="../Index.html">Home</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="academics.html">Academics</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <section>
+            <h2>Project #1 | Financial Planning</h2>
+            <embed src="../docs/fnceplan.pdf" width="100%" height="600px" title="Nates financial plan" />
+            <a href="../docs/fnceplan.pdf" download class="download-btn">Download Financial Plan </a>
+            <h3>Summary of Project</h3>
+            <p>
+                This Personal Budget & Mortgage Debt Strategy project was completed as part of a case study for my FNCE
+                221 (Financial Planning) course. This plan involved analysis of my current financial position and a
+                mortgage debt strategy based on an assumed future financial position.
+            </p>
+            <p><strong>Key Skills:</strong></p>
+            <ul>
+                <li>Analyzing and balancing personal financial Condition through Net Worth and Cash Flow statements</li>
+                <li>Creating relevant SMART goals along with implementation and control strategies</li>
+                <li>
+                    Analysis of debt service ratios and maximum mortgage calculation on an assumed financial position
+                </li>
+                <li>Explanation of chosen mortgage features on a specified home</li>
+            </ul>
+
+            <hr class="divider" />
+
+            <h2>Project #2 | Data Visualization and Communication</h2>
+
+            <div class="project-gallary">
+                <img
+                    src="../images/dataex1graph1.PNG"
+                    alt="Bar graph comparing revenue (y axis) based on sales channel (x axis) "
+                    class="project-img" />
+                <img
+                    src="../images/dataex1graph2.PNG"
+                    alt="Scatter plot comparing sales channel, with number of customers (x axis) and revenue (y axis)"
+                    class="project-img" />
+                <img
+                    src="../images/dataex1graph3.PNG"
+                    alt="Table showing conversion rate of each sales channel"
+                    class="project-img wide" />
+            </div>
+
+            <a href="../docs/dataex1.html" download class="download-btn">Download Data Analysis #1 </a>
+
+            <h3>Summary of Project</h3>
+            <p>
+                <strong>Objective:</strong> Provide a specific recommendation to help a fictional business drive more
+                revenue based off of the provided data.
+            </p>
+
+            <p>
+                <strong>Business Recommendation:</strong> In store promotions should be created to take advantage of the
+                retail channels high conversion rate of 5.03%, and high average revenue of $314 per customer.
+            </p>
+
+            <p><strong>Key Skills:</strong></p>
+
+            <ul>
+                <li>Data Cleaning</li>
+                <li>Aggregate Summaries</li>
+                <li>Professional Visual Analytics</li>
+                <li>Specific Financial Recommendation</li>
+            </ul>
+
+            <hr class="divider" />
+
+            <h2>Project #3 | Data-Driven Management Analysis</h2>
+
+            <div class="project-gallary">
+                <img
+                    src="../images/dataex2graph1.PNG"
+                    alt="Bar graph comparing revenue (y axis) based on sales channel (x axis) "
+                    class="project-img" />
+                <img
+                    src="../images/dataex2graph2.PNG"
+                    alt="Scatter plot comparing sales channel, with number of customers (x axis) and revenue (y axis)"
+                    class="project-img" />
+                <img
+                    src="../images/dataex2graph3.PNG"
+                    alt="Table showing conversion rate of each sales channel"
+                    class="project-img wide" />
+            </div>
+
+            <a href="../docs/dataex2.html" download class="download-btn">Download Data Analysis #2 </a>
+
+            <h3>Summary of Project</h3>
+            <p>
+                <strong>Objective:</strong> A fictional staffing agency is planning to expand its operations to Texas
+                and must identify the industries and counties that have demonstrated the largest number of layoffs.
+            </p>
+
+            <p>
+                <strong>Business Recommendation:</strong> The staffing agency is recommended to expand to one of
+                counties with the highest number of layoffs (Dallas, Harris, Travis, Tarrant). Then they should
+                temporarily focus on the health care industry to take advantage of their large number of recent layoffs.
+                Lastly, they should identify reasons for layoff clustering that appears in the scatter trend line.
+            </p>
+
+            <p><strong>Key Skills:</strong></p>
+
+            <ul>
+                <li>Data Cleaning</li>
+                <li>Data Quality Assessment</li>
+                <li>Comprehensive Data Analysis</li>
+                <li>Professional Visual Analytics</li>
+                <li>Business Recommendation</li>
+            </ul>
+            <div class="nav-buttons">
+                <a href="resume.html">← Previous</a>
+                <a href="academics.html">Next →</a>
+            </div>
+        </section>
+    </body>
+</html>

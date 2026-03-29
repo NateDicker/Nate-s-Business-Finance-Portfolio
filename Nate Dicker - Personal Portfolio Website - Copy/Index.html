@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Home</title>
+        <meta charset="utf-8" />
+
+        <style>
+            body {
+                font-family: Arial;
+                margin: 0;
+            }
+
+            header {
+                position: relative;
+                text-align: center;
+                padding: 10px;
+                background-color: #0033aa;
+                color: white;
+            }
+            .logo {
+                position: absolute;
+                bottom: 10px;
+                left: 10px;
+                width: 50px;
+                height: auto;
+            }
+            nav {
+                background-color: #333333;
+            }
+
+            nav ul {
+                display: flex;
+                justify-content: space-around;
+                list-style: none;
+                padding: 0;
+                margin: 0;
+            }
+
+            nav a {
+                color: white;
+                text-decoration: none;
+                padding: 13px 20px;
+                display: block;
+            }
+            nav a:hover {
+                background-color: #777777;
+            }
+
+            .active {
+                background-color: #777777;
+            }
+            section {
+                padding: 15px;
+            }
+
+            .nav-buttons {
+                display: flex;
+                justify-content: flex-end;
+                gap: 10px;
+                margin-top: 20px;
+            }
+
+            .nav-buttons a {
+                text-decoration: none;
+                color: black;
+                border: 1px solid black;
+                padding: 5px 10px;
+            }
+
+            .intro {
+                display: flex;
+                align-items: flex-start;
+                gap: 10px;
+                margin-bottom: -35px;
+            }
+
+            .intro img {
+                width: 135px;
+                height: auto;
+                border: 2px solid #333;
+            }
+
+            .nav-buttons a:hover {
+                background-color: #d3d3d3;
+            }
+
+            body {
+                background-color: #f4f4f4;
+            }
+
+            section {
+                background-color: white;
+            }
+            section {
+                padding: 10px;
+                max-width: 1000px;
+                margin: 0 auto;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <h1>Business Finance Portfolio</h1>
+            <img src="images/viulogo.jpg" alt="Vancouver Island university (VIU) logo" class="logo" />
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="pages/resume.html">Resume</a></li>
+                <li><a href="pages/projects.html">Projects</a></li>
+                <li><a href="pages/academics.html">Academics</a></li>
+                <li><a href="pages/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <section>
+            <h2>Personal Overview</h2>
+
+            <div class="intro">
+                <div class="intro-text">
+                    <p>Hello!</p>
+                    <p>
+                        I am <em>Nate Dicker</em> a 20-year-old Business Finance Major at Vancouver Island University
+                        (VIU) in my second year of studies of this bachelor’s program. I originally declared a Major in
+                        Marketing, but I found an interest in the financial world after my first year. I also talked to
+                        a family friend who works as a Certified Financial Planner (CFP) and got an insight into what
+                        its like to work in the industry. I like understanding the different aspects of Finance, and the
+                        idea that I could get paid to help others with their finances as a CFP, or deal with financial
+                        decisions as a Certified Financial Analyst (CFA).
+                    </p>
+                </div>
+
+                <img src="images/IMG_0644.jpg" alt="Photo of Nate Dicker" />
+            </div>
+            <h2>Skills</h2>
+            <p>Despite only being in my second year of my studies, my skill set is diverse and includes:</p>
+
+            <ul>
+                <li>Personal financial planning</li>
+                <li>Data analysis (RStudio)</li>
+                <li>Managerial accounting</li>
+                <li>Time value money (TVM)</li>
+                <li>Micro/Macro economic tools</li>
+                <li>Oral and written communication</li>
+            </ul>
+
+            <h2>Navigation</h2>
+            <p>
+                Use the navigation bar to explore different parts of my portfolio. The Resume page provides a current
+                overview of the skills and experience, where the Projects page will contain specific demonstrations of
+                my work. The Academic portion will outline my academic achievements, and the Contact page will provide
+                some more information about myself on a cover letter and relevant contact information.
+            </p>
+
+            <div class="nav-buttons">
+                <a href="pages/contact.html">← Previous</a>
+                <a href="pages/resume.html">Next →</a>
+            </div>
+        </section>
+    </body>
+</html>
